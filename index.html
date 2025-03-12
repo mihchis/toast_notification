@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toast Notifications</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="notification notification--success">
+      <div class="notification-body">
+        <!-- Font Awesome Success Icon -->
+        <i class="fas fa-check-circle notification-icon"></i>
+        Your account has been created! &#128640;
+      </div>
+      <div class="notification-progress"></div>
+    </div>
+
+    <div class="notification notification--failure">
+      <div class="notification-body">
+        <!-- Font Awesome Error Icon -->
+        <i class="fas fa-times-circle notification-icon"></i>
+        Account creation failed!
+      </div>
+      <div class="notification-progress"></div>
+    </div>
+
+    <div class="notification notification--info">
+      <div class="notification-body">
+        <!-- Font Awesome Info Icon -->
+        <i class="fas fa-info-circle notification-icon"></i>
+        A new software update is available!
+      </div>
+      <div class="notification-progress"></div>
+    </div>
+
+    <div class="notification notification--warning">
+      <div class="notification-body">
+        <!-- Font Awesome Message Icon -->
+        <i class="fas fa-comment-dots notification-icon"></i>
+        A new message received!
+      </div>
+      <div class="notification-progress"></div>
+    </div>
+
+    <div class="notification notification--finalised">
+      <div class="notification-body">
+        <!-- Font Awesome Export Icon -->
+        <i class="fas fa-download notification-icon"></i>
+        The data export finalised!
+      </div>
+      <div class="notification-progress"></div>
+    </div>
+  </div>
+</body>
+</html>
